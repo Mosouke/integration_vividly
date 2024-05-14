@@ -81,6 +81,42 @@ input[type="button"]{
     }
 }
 
+@keyframes slideInFromBottom {
+    0% {
+        transform: translateY(100%);
+        opacity: 0;
+    }
+    100% {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+header, .section_1, .section_2, .section_3, .section_4, footer {
+    animation: slideInFromBottom 1s ease-out forwards;
+    opacity: 0;
+}
+
+header {
+    animation-delay: 0.1ms;
+}
+
+.section_1 {
+    animation-delay: 0.2ms;
+}
+
+.section_2 {
+    animation-delay: 0.3ms;
+}
+
+.section_3 {
+    animation-delay: 0.4ms;
+}
+
+.section_4 {
+    animation-delay: 0.5ms;
+}
+
 /* header */
 
 header {

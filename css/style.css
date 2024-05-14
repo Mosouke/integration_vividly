@@ -436,7 +436,7 @@ input[type="checkbox"] {
     border-radius: 50%;
     width: 200px;
     height: 200px;
-    animation: spin 2s linear infinite;
+    animation: spin 2s linear normal;
     background-color: var(--gradianOrange);
 }
 @keyframes spin {
